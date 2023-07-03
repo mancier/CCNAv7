@@ -42,6 +42,7 @@ Switch(config)# interface fastEthernet 0/1 || int fa0/1
 <desired_name># configure terminal
 <desired_name>(config)# inter vlan 1
 <desired_name>(config-if)# ip addr <ip> <net-mask>
+<desired_name>(config-if)# ip default-gateway <ip>
 <desired_name>(config-if)# no shutdown # redundancy
 <desired_name>(config-if)# line vty 0 15 # virtual tty
 <desired_name>(config-line)# password <pass>
